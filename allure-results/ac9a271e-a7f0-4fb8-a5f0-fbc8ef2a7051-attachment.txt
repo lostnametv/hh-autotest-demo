@@ -1,0 +1,4 @@
+info: Testing login for: locked_out_user - Locked out user - should show error {"timestamp":"2025-08-11 13:21:26:2126"}
+debug: Filling login form for locked_out_user {"timestamp":"2025-08-11 13:21:28:2128"}
+debug: Verifying login result for locked_out_user {"timestamp":"2025-08-11 13:21:28:2128"}
+info: ✓ Locked out user correctly shows error message {"timestamp":"2025-08-11 13:21:28:2128"}

@@ -1,0 +1,4 @@
+info: Testing login for: error_user - User that triggers errors {"timestamp":"2025-08-11 08:47:58:4758"}
+debug: Filling login form for error_user {"timestamp":"2025-08-11 08:47:59:4759"}
+debug: Verifying login result for error_user {"timestamp":"2025-08-11 08:47:59:4759"}
+info: ✓ error_user successfully logged in {"timestamp":"2025-08-11 08:47:59:4759"}

@@ -1,0 +1,14 @@
+info: H4 Titles Found Inside Dialogs: {"timestamp":"2025-08-11 08:58:49:5849"}
+info: H4 Titles Found Inside Class: {"0":"Accepted usernames are:","1":"Password for all users:","timestamp":"2025-08-11 08:58:49:5849"}
+info: Filtered H3 Titles (Excluding Dialogs): {"0":"Accepted usernames are:","1":"Password for all users:","timestamp":"2025-08-11 08:58:49:5849"}
+Expected Titles: [ 'Accepted usernames are:', 'Password for all users:' ]
+Received Titles: [ 'Accepted usernames are:', 'Password for all users:' ]
+Expected Users: [
+  'standard_user',
+  'locked_out_user',
+  'problem_user',
+  'performance_glitch_user',
+  'error_user',
+  'visual_user'
+]
+Received Users: []

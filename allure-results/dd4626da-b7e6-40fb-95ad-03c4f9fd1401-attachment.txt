@@ -1,0 +1,4 @@
+info: Testing login for: problem_user - Problem user with UI issues {"timestamp":"2025-08-11 13:21:28:2128"}
+debug: Filling login form for problem_user {"timestamp":"2025-08-11 13:21:30:2130"}
+debug: Verifying login result for problem_user {"timestamp":"2025-08-11 13:21:30:2130"}
+info: ✓ problem_user successfully logged in {"timestamp":"2025-08-11 13:21:30:2130"}

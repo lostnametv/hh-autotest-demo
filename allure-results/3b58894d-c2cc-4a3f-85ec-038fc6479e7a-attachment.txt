@@ -1,0 +1,4 @@
+debug: Navigate to: https://www.saucedemo.com/ {"timestamp":"2025-08-11 14:07:54:754"}
+debug: Fill input [data-test="username"] => standard_user {"timestamp":"2025-08-11 14:07:56:756"}
+debug: Fill input [data-test="password"] => secret_sauce {"timestamp":"2025-08-11 14:07:56:756"}
+debug: Clicking button "Login" [[data-test="login-button"]] {"timestamp":"2025-08-11 14:07:56:756"}

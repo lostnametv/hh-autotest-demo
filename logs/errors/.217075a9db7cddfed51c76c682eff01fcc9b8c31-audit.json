@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 4
+    },
+    "auditLog": "C:\\Users\\lostname\\Desktop\\Work\\hh-autotest-demo\\logs\\errors\\.217075a9db7cddfed51c76c682eff01fcc9b8c31-audit.json",
+    "files": [
+        {
+            "date": 1754892470288,
+            "name": "C:\\Users\\lostname\\Desktop\\Work\\hh-autotest-demo\\logs\\errors\\error-2025-08-11.log",
+            "hash": "f51c95c76c94ee42ad70eb43f56699145da3822818b5cd8c83cd085bb2b42f1e"
+        }
+    ],
+    "hashType": "sha256"
+}

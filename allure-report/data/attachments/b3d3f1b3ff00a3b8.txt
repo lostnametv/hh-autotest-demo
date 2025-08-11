@@ -1,0 +1,4 @@
+info: Testing login for: standard_user - Standard user with full access {"timestamp":"2025-08-06 12:52:22:5222"}
+debug: Filling login form for standard_user {"timestamp":"2025-08-06 12:52:24:5224"}
+debug: Verifying login result for standard_user {"timestamp":"2025-08-06 12:52:24:5224"}
+info: ✓ standard_user successfully logged in {"timestamp":"2025-08-06 12:52:24:5224"}

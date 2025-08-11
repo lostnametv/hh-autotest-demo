@@ -1,0 +1,11 @@
+info: H4 Titles Found Inside Dialogs: {"timestamp":"2025-08-06 17:55:36:5536"}
+info: H4 Titles Found Inside Class: {"0":"Accepted usernames are:","1":"Password for all users:","timestamp":"2025-08-06 17:55:37:5537"}
+info: Filtered H3 Titles (Excluding Dialogs): {"0":"Accepted usernames are:","1":"Password for all users:","timestamp":"2025-08-06 17:55:37:5537"}
+Expected Titles: [ 'Accepted usernames are:', 'Password for all users:' ]
+Received Titles: [ 'Accepted usernames are:', 'Password for all users:' ]
+Found 1 buttons matching selector "#login-button" and label "Login".
+Starting isButtonVisible for label: "Login"
+Button "Login" is attached to the DOM.
+Button "Login" visibility: true
+Button "Login" passed all checks.
+Is the "Login" button visible? true
