@@ -1,0 +1,2 @@
+info: Testing error_user behavior {"timestamp":"2025-08-11 13:27:14:2714"}
+info: ✓ Error user login and page load verified {"timestamp":"2025-08-11 13:27:16:2716"}

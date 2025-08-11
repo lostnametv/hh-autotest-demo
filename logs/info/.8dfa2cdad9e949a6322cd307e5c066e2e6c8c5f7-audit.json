@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\lostname\\Desktop\\Work\\hh-autotest-demo\\logs\\info\\.8dfa2cdad9e949a6322cd307e5c066e2e6c8c5f7-audit.json",
+    "files": [
+        {
+            "date": 1754455636000,
+            "name": "C:\\Users\\lostname\\Desktop\\Work\\hh-autotest-demo\\logs\\info\\info-2025-08-06.log",
+            "hash": "3f86fc399649992b88d5987602b358de436076de86b6b85939b1d9bec4290040"
+        },
+        {
+            "date": 1754872769686,
+            "name": "C:\\Users\\lostname\\Desktop\\Work\\hh-autotest-demo\\logs\\info\\info-2025-08-11.log",
+            "hash": "0df2dde15b31437e1a7543020ba382503349e54485cefa3a6bf75d74b9370537"
+        }
+    ],
+    "hashType": "sha256"
+}

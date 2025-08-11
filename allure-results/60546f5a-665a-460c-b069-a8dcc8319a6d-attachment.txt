@@ -1,0 +1,2 @@
+info: Testing login with invalid credentials {"timestamp":"2025-08-11 13:27:03:273"}
+info: ✓ Invalid credentials correctly show error message {"timestamp":"2025-08-11 13:27:05:275"}

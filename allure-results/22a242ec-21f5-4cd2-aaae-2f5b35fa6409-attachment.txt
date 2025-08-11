@@ -1,0 +1,4 @@
+info: Testing login for: empty_password - Empty password {"timestamp":"2025-08-11 08:39:54:3954"}
+debug: Filling login form for empty_password {"timestamp":"2025-08-11 08:39:56:3956"}
+debug: Verifying login result for empty_password {"timestamp":"2025-08-11 08:39:56:3956"}
+info: ✓ Empty password correctly shows error message {"timestamp":"2025-08-11 08:39:56:3956"}

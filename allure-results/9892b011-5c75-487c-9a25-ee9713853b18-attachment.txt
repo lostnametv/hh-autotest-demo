@@ -1,0 +1,4 @@
+info: Testing login for: visual_user - User for visual testing {"timestamp":"2025-08-11 08:47:59:4759"}
+debug: Filling login form for visual_user {"timestamp":"2025-08-11 08:48:01:481"}
+debug: Verifying login result for visual_user {"timestamp":"2025-08-11 08:48:01:481"}
+info: ✓ visual_user successfully logged in {"timestamp":"2025-08-11 08:48:01:481"}

@@ -1,0 +1,2 @@
+debug: H4 в диалогах: [] {"timestamp":"2025-08-11 14:16:01:161"}
+debug: H4 в контейнере: ["Accepted usernames are:","Password for all users:"] {"timestamp":"2025-08-11 14:16:01:161"}

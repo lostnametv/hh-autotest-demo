@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "description": "Standard user with full access"
+    },
+    {
+      "username": "locked_out_user", 
+      "password": "secret_sauce",
+      "description": "Locked out user - should show error"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce", 
+      "description": "Problem user with UI issues"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "description": "User with performance issues"
+    },
+    {
+      "username": "error_user",
+      "password": "secret_sauce",
+      "description": "User that triggers errors"
+    },
+    {
+      "username": "visual_user",
+      "password": "secret_sauce",
+      "description": "User for visual testing"
+    },
+    {
+      "username": "",
+      "password": "",
+      "description": "Empty user and password"
+    },    {
+      "username": "empty_password",  
+      "password": "",
+      "description": "Empty password"
+    }
+  ],
+  "elements": {
+    "authPageSelectors": {
+      "buttonSelectors": {
+        "loginButton": "[data-test=\"login-button\"]"
+      },
+      "inputSelectors": {
+        "usernameInput": "[data-test=\"username\"]",
+        "passwordInput": "[data-test=\"password\"]"
+      },
+      "errorMessageSelectors": {
+        "errorMessage": "[data-test=\"error\"]"
+      }
+    },
+    "titlesH4": [
+      "Accepted usernames are:",
+      "Password for all users:"
+    ],
+    "buttons": [
+      {
+      "class": "#login-button",
+      "label": "Login"
+    }
+    ],
+    "listOfUsers": [
+      "standard_user",
+      "locked_out_user",
+      "problem_user",
+      "performance_glitch_user",
+      "error_user",
+      "visual_user"
+    ],
+    "listOfPasswords": [
+      "secret_sauce"
+    ],
+    "titleLogo": "Swag Labs"
+  }
+}
+

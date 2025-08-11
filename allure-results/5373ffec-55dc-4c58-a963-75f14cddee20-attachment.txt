@@ -1,0 +1,4 @@
+info: Testing login for: performance_glitch_user - User with performance issues {"timestamp":"2025-08-11 08:47:52:4752"}
+debug: Filling login form for performance_glitch_user {"timestamp":"2025-08-11 08:47:53:4753"}
+debug: Verifying login result for performance_glitch_user {"timestamp":"2025-08-11 08:47:58:4758"}
+info: ✓ performance_glitch_user successfully logged in {"timestamp":"2025-08-11 08:47:58:4758"}

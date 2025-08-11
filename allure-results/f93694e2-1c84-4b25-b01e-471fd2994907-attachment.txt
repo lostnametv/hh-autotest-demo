@@ -1,0 +1,2 @@
+info: Testing performance_glitch_user behavior {"timestamp":"2025-08-11 08:48:07:487"}
+info: ✓ Performance glitch user login verified (with timeout: 5000ms) {"timestamp":"2025-08-11 08:48:13:4813"}

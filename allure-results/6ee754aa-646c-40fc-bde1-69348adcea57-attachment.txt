@@ -1,0 +1,1 @@
+info: Navigating to the login page: https://www.saucedemo.com/ {"timestamp":"2025-08-11 14:16:06:166"}

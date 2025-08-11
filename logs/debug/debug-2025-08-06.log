@@ -1,0 +1,281 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 12:47:16:4716"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 12:47:16:4716"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 12:52:19:5219"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 12:52:20:5220"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Dialogs:\u001b[39m","timestamp":"2025-08-06 12:52:22:5222"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Class:\u001b[39m","timestamp":"2025-08-06 12:52:22:5222"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFiltered H3 Titles (Excluding Dialogs):\u001b[39m","timestamp":"2025-08-06 12:52:22:5222"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: standard_user - Standard user with full access\u001b[39m","timestamp":"2025-08-06 12:52:22:5222"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for standard_user\u001b[39m","timestamp":"2025-08-06 12:52:24:5224"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for standard_user\u001b[39m","timestamp":"2025-08-06 12:52:24:5224"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ standard_user successfully logged in\u001b[39m","timestamp":"2025-08-06 12:52:24:5224"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: locked_out_user - Locked out user - should show error\u001b[39m","timestamp":"2025-08-06 12:52:24:5224"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for locked_out_user\u001b[39m","timestamp":"2025-08-06 12:52:26:5226"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for locked_out_user\u001b[39m","timestamp":"2025-08-06 12:52:26:5226"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Locked out user correctly shows error message\u001b[39m","timestamp":"2025-08-06 12:52:26:5226"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: problem_user - Problem user with UI issues\u001b[39m","timestamp":"2025-08-06 12:52:26:5226"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for problem_user\u001b[39m","timestamp":"2025-08-06 12:52:28:5228"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for problem_user\u001b[39m","timestamp":"2025-08-06 12:52:28:5228"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ problem_user successfully logged in\u001b[39m","timestamp":"2025-08-06 12:52:28:5228"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: performance_glitch_user - User with performance issues\u001b[39m","timestamp":"2025-08-06 12:52:28:5228"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 12:52:30:5230"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 12:52:35:5235"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ performance_glitch_user successfully logged in\u001b[39m","timestamp":"2025-08-06 12:52:35:5235"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: error_user - User that triggers errors\u001b[39m","timestamp":"2025-08-06 12:52:35:5235"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for error_user\u001b[39m","timestamp":"2025-08-06 12:52:37:5237"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for error_user\u001b[39m","timestamp":"2025-08-06 12:52:37:5237"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ error_user successfully logged in\u001b[39m","timestamp":"2025-08-06 12:52:37:5237"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: visual_user - User for visual testing\u001b[39m","timestamp":"2025-08-06 12:52:37:5237"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for visual_user\u001b[39m","timestamp":"2025-08-06 12:52:38:5238"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for visual_user\u001b[39m","timestamp":"2025-08-06 12:52:39:5239"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ visual_user successfully logged in\u001b[39m","timestamp":"2025-08-06 12:52:39:5239"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for:  - Empty user and password\u001b[39m","timestamp":"2025-08-06 12:52:39:5239"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for \u001b[39m","timestamp":"2025-08-06 12:52:40:5240"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for \u001b[39m","timestamp":"2025-08-06 12:52:41:5241"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty user and password correctly shows error message\u001b[39m","timestamp":"2025-08-06 12:52:41:5241"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: empty_user - Empty password\u001b[39m","timestamp":"2025-08-06 12:52:41:5241"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for empty_user\u001b[39m","timestamp":"2025-08-06 12:52:42:5242"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for empty_user\u001b[39m","timestamp":"2025-08-06 12:52:42:5242"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty password correctly shows error message\u001b[39m","timestamp":"2025-08-06 12:52:42:5242"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login with invalid credentials\u001b[39m","timestamp":"2025-08-06 12:52:43:5243"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Invalid credentials correctly show error message\u001b[39m","timestamp":"2025-08-06 12:52:44:5244"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting problem_user specific behavior\u001b[39m","timestamp":"2025-08-06 12:52:45:5245"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Problem user login and basic functionality verified\u001b[39m","timestamp":"2025-08-06 12:52:46:5246"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting performance_glitch_user behavior\u001b[39m","timestamp":"2025-08-06 12:52:46:5246"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Performance glitch user login verified (with timeout: 5000ms)\u001b[39m","timestamp":"2025-08-06 12:52:53:5253"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting error_user behavior\u001b[39m","timestamp":"2025-08-06 12:52:53:5253"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Error user login and page load verified\u001b[39m","timestamp":"2025-08-06 12:52:55:5255"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting visual_user behavior\u001b[39m","timestamp":"2025-08-06 12:52:55:5255"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Visual user login and UI elements verified\u001b[39m","timestamp":"2025-08-06 12:52:57:5257"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:48:41:4841"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:48:47:4847"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Dialogs:\u001b[39m","timestamp":"2025-08-06 17:48:52:4852"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Class:\u001b[39m","timestamp":"2025-08-06 17:48:52:4852"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFiltered H3 Titles (Excluding Dialogs):\u001b[39m","timestamp":"2025-08-06 17:48:52:4852"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: standard_user - Standard user with full access\u001b[39m","timestamp":"2025-08-06 17:48:52:4852"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for standard_user\u001b[39m","timestamp":"2025-08-06 17:48:54:4854"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for standard_user\u001b[39m","timestamp":"2025-08-06 17:48:54:4854"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ standard_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:48:54:4854"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: locked_out_user - Locked out user - should show error\u001b[39m","timestamp":"2025-08-06 17:48:54:4854"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for locked_out_user\u001b[39m","timestamp":"2025-08-06 17:48:56:4856"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for locked_out_user\u001b[39m","timestamp":"2025-08-06 17:48:56:4856"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Locked out user correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:48:56:4856"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: problem_user - Problem user with UI issues\u001b[39m","timestamp":"2025-08-06 17:48:56:4856"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for problem_user\u001b[39m","timestamp":"2025-08-06 17:48:58:4858"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for problem_user\u001b[39m","timestamp":"2025-08-06 17:48:58:4858"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ problem_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:48:58:4858"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: performance_glitch_user - User with performance issues\u001b[39m","timestamp":"2025-08-06 17:48:59:4859"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 17:49:00:490"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 17:49:05:495"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ performance_glitch_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:49:05:495"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: error_user - User that triggers errors\u001b[39m","timestamp":"2025-08-06 17:49:06:496"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for error_user\u001b[39m","timestamp":"2025-08-06 17:49:07:497"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for error_user\u001b[39m","timestamp":"2025-08-06 17:49:08:498"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ error_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:49:08:498"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: visual_user - User for visual testing\u001b[39m","timestamp":"2025-08-06 17:49:08:498"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for visual_user\u001b[39m","timestamp":"2025-08-06 17:49:10:4910"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for visual_user\u001b[39m","timestamp":"2025-08-06 17:49:10:4910"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ visual_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:49:10:4910"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for:  - Empty user and password\u001b[39m","timestamp":"2025-08-06 17:49:10:4910"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:11:4911"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for \u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for \u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty user and password correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: empty_password - Empty password\u001b[39m","timestamp":"2025-08-06 17:49:12:4912"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:13:4913"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for empty_password\u001b[39m","timestamp":"2025-08-06 17:49:14:4914"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for empty_password\u001b[39m","timestamp":"2025-08-06 17:49:14:4914"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty password correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:49:14:4914"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login with invalid credentials\u001b[39m","timestamp":"2025-08-06 17:49:14:4914"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Invalid credentials correctly show error message\u001b[39m","timestamp":"2025-08-06 17:49:16:4916"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting problem_user specific behavior\u001b[39m","timestamp":"2025-08-06 17:49:16:4916"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Problem user login and basic functionality verified\u001b[39m","timestamp":"2025-08-06 17:49:18:4918"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting performance_glitch_user behavior\u001b[39m","timestamp":"2025-08-06 17:49:19:4919"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Performance glitch user login verified (with timeout: 5000ms)\u001b[39m","timestamp":"2025-08-06 17:49:26:4926"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting error_user behavior\u001b[39m","timestamp":"2025-08-06 17:49:26:4926"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Error user login and page load verified\u001b[39m","timestamp":"2025-08-06 17:49:28:4928"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting visual_user behavior\u001b[39m","timestamp":"2025-08-06 17:49:28:4928"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Visual user login and UI elements verified\u001b[39m","timestamp":"2025-08-06 17:49:30:4930"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:31:4931"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:32:4932"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:33:4933"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:34:4934"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:35:4935"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:36:4936"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:37:4937"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:38:4938"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:49:39:4939"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:55:34:5534"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Dialogs:\u001b[39m","timestamp":"2025-08-06 17:55:36:5536"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mH4 Titles Found Inside Class:\u001b[39m","timestamp":"2025-08-06 17:55:37:5537"}
+{"0":"Accepted usernames are:","1":"Password for all users:","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFiltered H3 Titles (Excluding Dialogs):\u001b[39m","timestamp":"2025-08-06 17:55:37:5537"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: standard_user - Standard user with full access\u001b[39m","timestamp":"2025-08-06 17:55:37:5537"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for standard_user\u001b[39m","timestamp":"2025-08-06 17:55:38:5538"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for standard_user\u001b[39m","timestamp":"2025-08-06 17:55:38:5538"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ standard_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:55:38:5538"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: locked_out_user - Locked out user - should show error\u001b[39m","timestamp":"2025-08-06 17:55:39:5539"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for locked_out_user\u001b[39m","timestamp":"2025-08-06 17:55:40:5540"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for locked_out_user\u001b[39m","timestamp":"2025-08-06 17:55:40:5540"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Locked out user correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:55:40:5540"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: problem_user - Problem user with UI issues\u001b[39m","timestamp":"2025-08-06 17:55:41:5541"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for problem_user\u001b[39m","timestamp":"2025-08-06 17:55:42:5542"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for problem_user\u001b[39m","timestamp":"2025-08-06 17:55:42:5542"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ problem_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:55:42:5542"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: performance_glitch_user - User with performance issues\u001b[39m","timestamp":"2025-08-06 17:55:43:5543"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 17:55:44:5544"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for performance_glitch_user\u001b[39m","timestamp":"2025-08-06 17:55:49:5549"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ performance_glitch_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:55:49:5549"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: error_user - User that triggers errors\u001b[39m","timestamp":"2025-08-06 17:55:50:5550"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for error_user\u001b[39m","timestamp":"2025-08-06 17:55:53:5553"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for error_user\u001b[39m","timestamp":"2025-08-06 17:55:53:5553"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ error_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:55:53:5553"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: visual_user - User for visual testing\u001b[39m","timestamp":"2025-08-06 17:55:53:5553"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for visual_user\u001b[39m","timestamp":"2025-08-06 17:55:55:5555"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for visual_user\u001b[39m","timestamp":"2025-08-06 17:55:55:5555"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ visual_user successfully logged in\u001b[39m","timestamp":"2025-08-06 17:55:55:5555"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for:  - Empty user and password\u001b[39m","timestamp":"2025-08-06 17:55:55:5555"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for \u001b[39m","timestamp":"2025-08-06 17:55:57:5557"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for \u001b[39m","timestamp":"2025-08-06 17:55:57:5557"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty user and password correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:55:57:5557"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login for: empty_password - Empty password\u001b[39m","timestamp":"2025-08-06 17:55:57:5557"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mFilling login form for empty_password\u001b[39m","timestamp":"2025-08-06 17:55:59:5559"}
+{"level":"\u001b[37mdebug\u001b[39m","message":"\u001b[37mVerifying login result for empty_password\u001b[39m","timestamp":"2025-08-06 17:55:59:5559"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Empty password correctly shows error message\u001b[39m","timestamp":"2025-08-06 17:55:59:5559"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting login with invalid credentials\u001b[39m","timestamp":"2025-08-06 17:55:59:5559"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Invalid credentials correctly show error message\u001b[39m","timestamp":"2025-08-06 17:56:02:562"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting problem_user specific behavior\u001b[39m","timestamp":"2025-08-06 17:56:02:562"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Problem user login and basic functionality verified\u001b[39m","timestamp":"2025-08-06 17:56:06:566"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting performance_glitch_user behavior\u001b[39m","timestamp":"2025-08-06 17:56:06:566"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Performance glitch user login verified (with timeout: 5000ms)\u001b[39m","timestamp":"2025-08-06 17:56:13:5613"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting error_user behavior\u001b[39m","timestamp":"2025-08-06 17:56:13:5613"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Error user login and page load verified\u001b[39m","timestamp":"2025-08-06 17:56:15:5615"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTesting visual_user behavior\u001b[39m","timestamp":"2025-08-06 17:56:15:5615"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✓ Visual user login and UI elements verified\u001b[39m","timestamp":"2025-08-06 17:56:17:5617"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting authentication test suite\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mRunning test: Login verification for all users\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUsing base URL: https://www.saucedemo.com/\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mTimeout: 5000ms\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHeadless mode: true\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAuthentication test suite completed\u001b[39m","timestamp":"2025-08-06 17:58:37:5837"}
